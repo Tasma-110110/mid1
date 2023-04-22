@@ -22,7 +22,7 @@ func NewAuthService(repo repository.Authorization) *AuthService {
 }
 
 const (
-	signingKey = "sajsij6xbj$%snr343dfd"
+	signingKey = "sajsijffq6xbj$%snr343dfdh"
 	tokenTTL   = 2 * time.Hour
 )
 

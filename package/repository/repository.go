@@ -9,16 +9,9 @@ type Authorization interface {
 	CreateUser(user mid1.User) (int, error)
 }
 
-type TodoList interface {
-}
-
-type TodoItem interface {
-}
 
 type Repository struct {
 	Authorization
-	TodoList
-	TodoItem
 }
 
 func NewRepository(db *sqlx.DB) *Repository {

@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+//структера сервера
 type Server struct {
 	httpServer *http.Server
 }
